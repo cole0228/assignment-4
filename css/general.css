@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* first answer */
+
+h1{
+	font-size: 4rem;
+}
+
+.main-heading{
+	font-color: green;
+}
+
+h1# main-heading{
+	text-transform: uppercase;
+}
+
+/* second answer */
+
+h2{
+	font-size: 3rem;
+}
+
+:nth-child(4n){
+	font-style: italic;
+}
+
+/* third answer */
+
+.tri{
+	background-color: goldenrod;
+}
+
+li:nth-child(last){
+	color:blue;
+}
+
